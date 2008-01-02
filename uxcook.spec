@@ -7,6 +7,7 @@ Group:		File tools
 URL:		http://www.free-music.com/uxcook.htm
 Source0:	http://www.free-music.com/%{name}-%{version}.tar.bz2
 Patch0:		uxcook-fix-overriding-cflags.patch
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 This is basically a clone of Uncook95 (which runs under Microsoft Windows). It
