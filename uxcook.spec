@@ -1,7 +1,7 @@
 Summary:	Fix problems resulting of improperly set FTP downloads
 Name:		uxcook
 Version:	2.0.1
-Release:	%mkrel 16
+Release:	%mkrel 17
 License:	GPL
 Group:		File tools
 URL:		http://www.free-music.com/uxcook.htm
