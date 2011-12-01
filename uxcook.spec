@@ -29,12 +29,12 @@ semi-regular intervals). With uxcook you will avoid re-doing the download.
 %make CFLAGS="%{optflags}" LDFLAGS="%{ldflags}"
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
-install %{name} -D $RPM_BUILD_ROOT%{_bindir}/%{name}
+install %{name} -D %{buildroot}%{_bindir}/%{name}
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
