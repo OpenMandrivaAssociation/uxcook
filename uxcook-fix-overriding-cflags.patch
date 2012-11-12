@@ -1,0 +1,5 @@
+--- Makefile.gege
++++ Makefile
+@@ -2,1 +2,1 @@
+-CFLAGS = -ffast-math -fexpensive-optimizations -O3 -ansi -Wall -pedantic
++#CFLAGS = -ffast-math -fexpensive-optimizations -O3 -ansi -Wall -pedantic

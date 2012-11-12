@@ -1,0 +1,12 @@
+--- Makefile	2008-12-23 15:33:37.000000000 +0100
++++ Makefile.oden	2008-12-23 15:34:14.000000000 +0100
+@@ -1,7 +1,7 @@
+ CC = gcc
+ #CFLAGS = -ffast-math -fexpensive-optimizations -O3 -ansi -Wall -pedantic
+-
++LDFLAGS = 
+ 
+ uxcook:
+-	$(CC) $(CFLAGS) \
++	$(CC) $(CFLAGS) $(LDFLAGS) \
+ 	    uxcook.c -o uxcook
