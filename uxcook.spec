@@ -4,7 +4,7 @@ Version:	2.0.1
 Release:	29
 License:	GPL
 Group:		File tools
-URL:		http://www.free-music.com/uxcook.htm
+URL:		https://www.free-music.com/uxcook.htm
 Source0:	http://www.free-music.com/%{name}-%{version}.tar.bz2
 Patch0:		uxcook-fix-overriding-cflags.patch
 Patch1:		uxcook-2.0.1-LDFLAGS.diff
