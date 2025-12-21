@@ -10,6 +10,7 @@ Patch0:		uxcook-fix-overriding-cflags.patch
 Patch1:		uxcook-2.0.1-LDFLAGS.diff
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	make
 %description
 This is basically a clone of Uncook95 (which runs under Microsoft Windows). It
 is designed to allow Netscape users to fix MP3 files that were retrieved from
